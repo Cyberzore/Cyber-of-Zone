@@ -6110,24 +6110,71 @@
       </div>
     `
   },
-      {
-        title: "30. Produk Kreatif & Kewirausahaan (PKK)",
-        badge: "Kelas 12 (Fase F - Pendalaman)",
-        content: `
-          <p class="text-base">Materi penutup yang mengarahkan siswa untuk mengubah keahlian teknis TJKT menjadi produk atau jasa bernilai ekonomis dan siap dipasarkan ke dunia bisnis.</p>
+{
+      title: "30. Produk Kreatif & Kewirausahaan (PKK)",
+      badge: "Kelas 12 (Fase F - Pendalaman)",
+      content: `
+        <p class="text-base text-slate-600 dark:text-slate-300 leading-relaxed mb-6">
+          Materi penutup yang mengintegrasikan seluruh keahlian teknis Teknik Jaringan Komputer dan Telekomunikasi (TJKT) menjadi produk barang, jasa, atau solusi digital bernilai ekonomis tinggi serta siap bersaing di pasar industri modern.
+        </p>
 
-          <h3 class="text-lg font-bold text-blue-500 mt-6 mb-2">1. Peluang Usaha Bisnis TJKT</h3>
-          <ul class="list-disc pl-5 space-y-2 my-2">
-            <li><strong>Usaha Layanan RT/RW Net & ISP Reseller:</strong> Membangun infrastruktur distribusi akses internet lokal berbasis sistem manajemen koin/voucher Hotspot.</li>
-            <li><strong>Jasa Konsultan & Contractor Network Installation:</strong> Layanan instalasi jaringan LAN/Wi-Fi kantor, pemasangan CCTV berbasis IP, dan mounting rack server.</li>
-            <li><strong>Jasa Maintenance & Cloud Managed Service:</strong> Pengelolaan pemeliharaan berkala server web dan keamanan siber perusahaan UMKM.</li>
-          </ul>
+        <!-- 1. Peluang Usaha Bisnis TJKT -->
+        <h3 class="text-lg font-bold text-blue-600 dark:text-blue-400 mt-6 mb-3 flex items-center gap-2">
+          <span>1. Peluang Usaha Bisnis & Layanan TJKT</span>
+        </h3>
+        <ul class="grid grid-cols-1 md:grid-cols-2 gap-4 my-4 list-none pl-0">
+          <li class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60 shadow-sm">
+            <strong class="text-slate-900 dark:text-slate-100 block mb-1"> Layanan RT/RW Net & Hotspot Voucher</strong>
+            <span class="text-sm text-slate-600 dark:text-slate-400">Membangun infrastruktur distribusi akses internet lokal terintegrasi menggunakan MikroTik, sistem koin, voucher otomatis, dan manajemen bandwidth pengguna.</span>
+          </li>
+          <li class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60 shadow-sm">
+            <strong class="text-slate-900 dark:text-slate-100 block mb-1"> Integrator & Kontraktor Jaringan</strong>
+            <span class="text-sm text-slate-600 dark:text-slate-400">Jasa instalasi jaringan kabel FTTH/Fiber Optik, LAN perkantoran, Wi-Fi mesh terpusat, pengelasan kabel (*splicing*), serta mounting server rack.</span>
+          </li>
+          <li class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60 shadow-sm">
+            <strong class="text-slate-900 dark:text-slate-100 block mb-1"> CCTV IP & Smart Home Security</strong>
+            <span class="text-sm text-slate-600 dark:text-slate-400">Perancangan dan pemasangan sistem keamanan kamera IP, Network Video Recorder (NVR), integrasi IoT, dan akses pemantauan jarak jauh.</span>
+          </li>
+          <li class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-700/60 shadow-sm">
+            <strong class="text-slate-900 dark:text-slate-100 block mb-1"> Managed Cloud Service & Server Admin</strong>
+            <span class="text-sm text-slate-600 dark:text-slate-400">Pemeliharaan berkala (*maintenance*), migrasi server cloud (AWS/GCP/VPS), setup VPN kantor remote, serta hardening keamanan jaringan UMKM.</span>
+          </li>
+        </ul>
 
-          <h3 class="text-lg font-bold text-blue-500 mt-6 mb-2">2. Penyusunan RAB & Dokumentasi Proyek</h3>
-          <p>Setiap proyek wajib dilengkapi dengan <strong>Rencana Anggaran Biaya (RAB)</strong> yang memperhitungkan biaya modal awal (*CAPEX - Capital Expenditure*) seperti pembelian router/kabel, serta biaya operasional (*OPEX - Operational Expenditure*). Selain itu, teknisi menyusun dokumen **SLA (Service Level Agreement)** sebagai bentuk jaminan garansi ketersediaan layanan kepada konsumen.</p>
-        `
-      }
-      
+        <!-- 2. Perencanaan Finansial & RAB -->
+        <h3 class="text-lg font-bold text-blue-600 dark:text-blue-400 mt-8 mb-3">
+          2. Perencanaan Finansial & Dokumentasi Proyek
+        </h3>
+        <p class="text-slate-600 dark:text-slate-300 leading-relaxed mb-4">
+          Pengelolaan finansial yang terstruktur merupakan kunci keberhasilan proyek TJKT. Setiap proposal proyek wajib dilengkapi dengan perhitungan komprehensif:
+        </p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+          <div class="p-4 rounded-lg bg-blue-50 dark:bg-blue-950/40 border border-blue-200 dark:border-blue-800/50">
+            <span class="font-bold text-blue-700 dark:text-blue-300 block mb-1">CAPEX (Capital Expenditure)</span>
+            <p class="text-xs text-slate-600 dark:text-slate-300">Biaya investasi modal awal untuk aset permanen. Contoh: Pembelian Switch, Router MikroTik, Splicer FO, Kabel Fiber, Server, dan Perangkat AP.</p>
+          </div>
+          <div class="p-4 rounded-lg bg-emerald-50 dark:bg-emerald-950/40 border border-emerald-200 dark:border-emerald-800/50">
+            <span class="font-bold text-emerald-700 dark:text-emerald-300 block mb-1">OPEX (Operational Expenditure)</span>
+            <p class="text-xs text-slate-600 dark:text-slate-300">Biaya operasional rutin bulanan/harian. Contoh: Sewa bandwith ISP utama, listrik server, transportasi teknisi, domain/hosting, serta perawatan berkala.</p>
+          </div>
+        </div>
+
+        <p class="text-slate-600 dark:text-slate-300 leading-relaxed">
+          Selain finansial, teknisi menyusun dokumen <strong class="text-slate-900 dark:text-slate-100">SLA (Service Level Agreement)</strong> sebagai komitmen jaminan persentase ketersediaan layanan (*uptime guarantees* 99%), waktu tanggap perbaikan (*response time*), serta skema garansi purna jual bagi konsumen.
+        </p>
+
+        <!-- 3. Alur Pengujian & Prototipe Produk (Tambahan) -->
+        <h3 class="text-lg font-bold text-blue-600 dark:text-blue-400 mt-8 mb-3">
+          3. Pengujian Produk & Hak Kekayaan Intelektual (HKI)
+        </h3>
+        <ul class="list-disc pl-5 space-y-2 text-slate-600 dark:text-slate-300 mb-4">
+          <li><strong>Quality Assurance (QA) & Penetration Testing:</strong> Pengujian performa produk meliputi *throughput test*, *latency test*, serta uji celah keamanan sebelum diserahterimakan ke klien.</li>
+          <li><strong>Standard Operational Procedure (SOP):</strong> Menyusun panduan teknis penggunaan dan *troubleshooting* manual untuk pengguna akhir (*end-user*).</li>
+          <li><strong>Pemasaran Digital & HKI:</strong> Strategi branding portofolio, pendaftaran merek usaha, serta perlindungan hak cipta atas modul/skrip otomasi jaringan yang dikembangkan.</li>
+        </ul>
+      `
+    },
     ];
 
     let currentMateriIndex = 0;
